@@ -6,7 +6,7 @@ updateSecretParagraph();
 function toggleSecretState() {
     showSecret = !showSecret;
     updateSecretParagraph();
-    updateSecretButton()
+    updateSecretButton();
 }
 
 function updateSecretButton() {
